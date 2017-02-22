@@ -1,64 +1,63 @@
-<html>
-  
-  <head>
-<title>Home</title>
-<style>
-  * {
-  font-family: 'Georgia', 'Times', serif;
+<head>
+  <title> Welcome! </title>
+  <style>
+    .header {
+     text-align: center;
+     font-size: 36;
+     letter-spacing: 3px;
+     color: #01382c;
 }
- 
- header, footer {
-    padding: 1em;
+    .header p {
+      text-align: center;
+      font-size: 24;
+      padding: 0;
+}
+    .topmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00ba94;
+}
+.topmenu li {
+    float: left;
+}
+.topmenu li a {
+    display: inline-block;
     color: white;
-    background-color: #53d4e0;
-    clear: left;
     text-align: center;
+    padding: 16px;
+    text-decoration: none;
 }
-</style>
+.topmenu li a:hover {
+    background-color: #baffef;
+}
+.topmenu li a.active {
+    color: white;
+    background-color: #01382c;
+}
+.image {
+    padding: 5;
+    color: #01382c;
+    text-align: center;
+  }
+  </style>
 </head>
 
-<header>
-<h1> Home </h1>
-</header>
-
 <body>
-  <br>
-  <br>
-
-  
-  <div id="main">
-<div class="floatdiv"><FORM METHOD="LINK" ACTION="https://volunteer-musketeers.github.io/Final_Project/Calendar" target="_blank">
-  <input type="submit" value="Calendar">
-  </FORM></div>
-    <div class="floatdiv">
-<FORM METHOD="LINK" ACTION="https://volunteer-musketeers.github.io/Final_Project/Map" target="_blank">
-  <input type="submit" value="Map">
-      </FORM></div>
-<div class="floatdiv">
-<FORM METHOD="LINK" ACTION="LINK TO A DIFFERENT WEBSITE" target="_blank">
-  <input type="submit" value="Profile">
-  </FORM></div>
-
-<style type="text/css">
-    #main
-    {
-    position:relative;
-        width:200px;
-    }
-  
-.floatdiv {
-  float:right;
-
-  position:relative;
-  right: 50%
-  text-align: center;
-}
-  
-    .floatdiv
-    {
-    float:left;
-        width=80px
-    }
-
-</style>
-  
+  <div class="header">
+  <h1>Welcome, Maura!</h1>  
+    <p> Let's Start Volunteering! </p>
+  </div>
+  <ul class="topmenu">
+    <li><a href="https://volunteer-musketeers.github.io/Final_Project/Home.html" class="active">Home</a></li>
+    <li><a href="https://volunteer-musketeers.github.io/Final_Project/Calendar.html">Calendar</a></li>
+    <li><a href="https://volunteer-musketeers.github.io/Final_Project/Map.html">Map</a></li>
+    <li><a href="https://volunteer-musketeers.github.io/Final_Project/profile.html">Profile</a></li>
+    <li><a href="https://volunteer-musketeers.github.io/Final_Project/About.html">About</a></li>
+    <li><a href="https://volunteer-musketeers.github.io/Final_Project/Home.html">Logout</a></li>
+  </ul>
+  <div class="image">
+  <img src="http://thelossfoundation.org/wp-content/uploads/2015/03/helping-hand-.jpg"/>
+  </div>
+</body>
